@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text="Sergey"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="#00BCD4"
+
+        android:shadowColor="#8C3D3D"
+        android:text="Пустота"
+        android:textColor="#4E342E"
+        android:textColorHint="#B64141" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="#673AB7" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:minHeight="48dp"
+        android:text="Switch" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:background="#00BCD4"
+        android:text="Hello World!" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="ToggleButton" />
+
+</LinearLayout>
